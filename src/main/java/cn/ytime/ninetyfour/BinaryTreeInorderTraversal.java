@@ -7,6 +7,9 @@ import java.util.List;
  * 给定一个二叉树的根节点 root ，返回它的中序遍历
  * 二叉树的中序遍历：
  * 按照访问左子树——根节点——右子树的方式遍历这棵树，而在访问左子树或者右子树的时候我们按照同样的方式遍历，直到遍历完整棵树。
+ * 来源：力扣（LeetCode）
+ * 链接：https://leetcode-cn.com/problems/binary-tree-inorder-traversal/
+ *
  * @author y-time
  * @version 1.0
  * @date 2021-06-10 00:12
@@ -15,6 +18,7 @@ public class BinaryTreeInorderTraversal {
 
     /**
      * 递归方式
+     *
      * @param root
      * @return
      */
